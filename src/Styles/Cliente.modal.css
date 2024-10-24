@@ -1,0 +1,74 @@
+.btn-accion{
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border-radius: 30px;
+  float: right;
+}
+
+.MuiTableCell-root{
+  width: auto-fit;
+  height: auto-fit;
+}
+
+.modal-dialog{
+  max-width: 1300px !important;
+  height: 900px!important;
+}
+
+/********************** Sweer Alert **************************/
+
+.swal2-container {
+  z-index: 10000;
+  position: fixed;
+}
+
+/********************** Sweer Alert **************************/
+
+/*********************** Modal *******************************/
+#modalinsertar {
+  z-index: 1000;
+  position: fixed;
+}
+
+#modalmodificar {
+  z-index: 1000;
+  position: fixed;
+}
+
+#modaleliminar {
+  z-index: 1000;
+  position: fixed;
+}
+
+.modalestante {
+  z-index: 1000;
+  position: fixed;
+}
+
+/*********************** Modal *******************************/
+
+.container-fluid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  max-height: 550px;
+  overflow-y:scroll;
+}
+
+.banner{
+  background-color:cadetblue;
+}
+
+.relleno-general{
+  width: auto-fit;
+  height: auto-fit;
+	padding-bottom: 1rem;
+  font-weight: bold;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #487346;
+}
+
+.relleno-general input{
+  color: #000;
+}
+
